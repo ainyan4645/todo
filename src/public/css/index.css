@@ -1,0 +1,43 @@
+/* 全体（main） */
+.content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+/* 作成フォーム */
+.content__form {
+    margin: 0 auto;
+    /* padding: 30px 15px; */
+    /* max-width: 1230px; */
+}
+
+.form__text input,
+.form__text textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+/* Todoリスト */
+.content__todo-group {
+    margin: 0 auto;
+    /* padding: 30px 15px; */
+    /* max-width: 1230px; */
+}
+
+.todo-group__heading {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+/* .todo-group__list {
+
+} */
