@@ -8,7 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class Todo extends Model
 {
     use HasFactory;
-        protected $filltable = [
-            'content',
-        ];
+
+    protected $fillable = [
+        'category_id',
+        'content',
+    ];
+
+    // TodoはCategoryに属する（多対一のリレーション）
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
 }
