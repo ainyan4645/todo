@@ -3,7 +3,10 @@
 }
 
 .header__inner {
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;    /* 左右に分ける */
+    align-items: center;    /* 高さを中央に揃える */
+    margin: 0;
     padding: 20px 15px;
     max-width: 1230px;
 }
@@ -13,4 +16,10 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 24px;
+}
+
+.header__nav {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
 }
